@@ -18,4 +18,6 @@ const OrderSchema = new mongoose.Schema({
   coursePricing: String,
 });
 
-module.exports = mongoose.model("Order", OrderSchema);
+const Order = mongoose.model("Order", OrderSchema);
+
+export default Order;
